@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;500;700;900&family=Pacifico&display=swap");
+.root {
+  --primaryColor:hsl(14,90%,53%);
+  --primaryColorLight:hsl(14,96%,91%);
+  --bgColor:hsl(0,0%,100%);
+  --formColor:hsl(20,42%,87%);
+  --whiteColor:hsl(0,0%,100%);
+  --blackColor:hsl(0,0%,18%);
+  --greyText:hsl(0,0%,51%);
+  --inputColor:hsl(330,12%,97%);
+  --cardColor:hsl(300,3%,94%);
+  --biggestFontSize:2.5rem;
+  --h1FontSize:2rem;
+  --h2FontSize:1.25rem;
+  --h3FontSize:1rem;
+  --normalFontSize:0.938rem;
+  --smallFontSize:0.831rem;
+  --smallestFontSize:0.75rem;
+  --borderRadius:3rem;
+}
+
+.portfolio .seccontainer {
+  gap: 2rem;
+}
+.portfolio .seccontainer .leftcontent .grid .singleportfolio {
+  gap: 1rem;
+  align-items: flex-start;
+}
+.portfolio .seccontainer .leftcontent .grid .singleportfolio .icondiv img {
+  height: 50px;
+  width: 50px;
+}
+.portfolio .seccontainer .leftcontent .grid .singleportfolio .infor h4 {
+  padding-bottom: 0.5rem;
+}
+
+@media screen and (min-width: 480px) {
+  .portfolio .seccontainer .leftcontent .secheading h3 {
+    font-size: var(--h2FontSize);
+  }
+  .portfolio .seccontainer .leftcontent .secheading p {
+    font-size: var(--normalFontSize);
+    padding: 0.5rem 0;
+  }
+  .portfolio .seccontainer .leftcontent .grid .singleportfolio {
+    gap: 1.5rem;
+  }
+  .portfolio .seccontainer .leftcontent .grid .singleportfolio .icondiv img {
+    height: 60px;
+    width: 60px;
+  }
+  .portfolio .seccontainer .leftcontent .grid .singleportfolio .infor h4 {
+    padding-bottom: 0.5rem;
+    font-size: var(--h3FontSize);
+  }
+  .portfolio .seccontainer .leftcontent .grid .singleportfolio .infor p {
+    font-size: var(--normalFontSize);
+  }
+}
+@media screen and (min-width: 660px) {
+  .portfolio .seccontainer {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .portfolio .seccontainer .leftcontent .secheading h3 {
+    font-size: 2rem;
+  }
+  .portfolio .seccontainer .leftcontent .secheading p {
+    font-size: var(--h3FontSize);
+    padding: 0.5rem 0;
+  }
+  .portfolio .seccontainer .leftcontent .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .portfolio .seccontainer .leftcontent .grid .singleportfolio {
+    gap: 1.5rem;
+  }
+  .portfolio .seccontainer .rightcontent {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .portfolio .seccontainer .rightcontent img {
+    margin: auto;
+    max-width: 80%;
+  }
+}
+@media screen and (min-width: 820px) {
+  .portfolio .seccontainer {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .portfolio .seccontainer .leftcontent .secheading h3 {
+    font-size: var(--h2FontSize);
+  }
+  .portfolio .seccontainer .leftcontent .secheading p {
+    font-size: var(--h3FontSize);
+    padding: 0.5rem 0;
+  }
+  .portfolio .seccontainer .leftcontent .grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .portfolio .seccontainer .leftcontent .grid .singleportfolio {
+    gap: 1.5rem;
+  }
+  .portfolio .seccontainer .rightcontent img {
+    max-width: 100%;
+  }
+}
+@media screen and (min-width: 1240px) {
+  .portfolio .seccontainer {
+    gap: 3rem;
+  }
+  .portfolio .seccontainer .leftcontent .secheading h3 {
+    font-size: 2rem;
+  }
+  .portfolio .seccontainer .leftcontent .secheading p {
+    font-size: var(--h3FontSize);
+    padding: 0.5rem 0;
+  }
+  .portfolio .seccontainer .leftcontent .grid {
+    gap: 2.5rem;
+    margin-top: 3rem;
+  }
+  .portfolio .seccontainer .leftcontent .grid .singleportfolio {
+    gap: 2rem;
+  }
+}/*# sourceMappingURL=Portfolio.css.map */
